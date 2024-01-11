@@ -32,7 +32,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   justify-content: space-around;
-  background-color: rgba(255, 0, 0, 0.76);
+  background-color: #f6f6f6;
   padding: 0px 12px;
 }
 
@@ -52,7 +52,7 @@ nav {
 .navbar-links-container a {
   margin-right: 3rem;
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 1.1rem;
   font-weight: 600;
 }
@@ -216,7 +216,6 @@ nav {
   margin: 6rem 0rem;
   display: flex;
   margin-top: 10rem;
-  color: wheat;
 }
 .footer-logo-container {
   max-width: 110px;
@@ -227,7 +226,7 @@ nav {
 .footer-icons svg {
   font-size: 1.5rem;
   margin-right: 1.25rem;
-  color: whitesmoke;
+  color: #585858;
 }
 /* .footer-section-one {
   border: 2px solid blue;
@@ -245,7 +244,7 @@ nav {
 .footer-section-columns span {
   margin: 0.25rem 0rem;
   font-weight: 600;
-  color: whitesmoke;
+  color: #4c4c4c;
   cursor: pointer;
 }
 .testimonial-section-bottom {
@@ -443,7 +442,4 @@ nav {
   .about-background-image-container {
     display: none;
   }
-}
-.text-white{
-  color: white;
 }
