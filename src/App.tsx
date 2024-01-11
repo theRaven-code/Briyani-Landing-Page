@@ -1,15 +1,17 @@
 import "./App.css";
+import FullScreenLayout from "./common/FullScreenLayout";
 import { Home, About, Work, Testimonial, Contact, Footer } from "./components";
+
+const components = [Home, About, Work, Testimonial, Contact, Footer];
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <About />
-      <Work />
-      <Testimonial />
-      <Contact />
-      <Footer />
+      <FullScreenLayout>
+        {components.map((Component) => (
+          <Component />
+        ))}
+      </FullScreenLayout>
     </div>
   );
 }

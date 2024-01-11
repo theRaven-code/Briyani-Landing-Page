@@ -4,10 +4,20 @@
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
 }
+
+::-webkit-scrollbar{
+  width: 0px;
+}
 img {
   max-width: 100%;
   height: auto;
 }
+
+.logo-img {
+  width: 200px;
+  height: auto;
+}
+
 .App {
   min-height: 100vh;
   width: 85vw;
@@ -19,7 +29,11 @@ body {
   overflow-x: hidden;
   justify-content: space-around;
   background-color: #f6f6f6;
-  padding: 12px;
+  padding: 0px 12px;
+}
+
+.home-container {
+  height: calc(100vh-24px);
 }
 
 nav {
@@ -62,7 +76,7 @@ nav {
 .home-banner-container {
   position: relative;
   display: flex;
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
 }
 .home-bannerImage-container {
   position: absolute;

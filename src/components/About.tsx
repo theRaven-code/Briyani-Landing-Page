@@ -15,7 +15,7 @@ const About: React.FC = () => {
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+          Who say no to briyani? 
         </h1>
         <p className="primary-text">
           Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et

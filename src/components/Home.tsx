@@ -14,11 +14,11 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
+            Your Favourite Hydrabardi Briyani Delivered Hot & Fresh
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+            Call now to taste the authentic taste of Briyani straight out of 
+            the kitchens of the Mughals and Persian with Hydrabadi twist.
           </p>
           <button className="secondary-button">
             Order Now <FiArrowRight />{" "}
